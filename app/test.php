@@ -14,8 +14,8 @@ class SingleTest{
         return self::$instance;
     }
 
-    public static function aa(int $stroe = ''){
-
+    public static function aa(int $stroe = 0){
+$a = array("iii"=>111);
     }
 }
 
