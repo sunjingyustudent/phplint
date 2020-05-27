@@ -13,7 +13,12 @@ class SingleTest{
         self::$instance = new SingleTest();
         return self::$instance;
     }
+
+    public static function aa(int $stroe = ''){
+
+    }
 }
 
 $a = SingleTest::getInstance();
 var_dump($a);
+
